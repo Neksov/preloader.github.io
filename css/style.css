@@ -540,29 +540,29 @@ p {
 }
 
 .subtitle-techno {
-  -webkit-animation: subtitlename 2s linear;
-          animation: subtitlename 2s linear;
+  -webkit-animation: subtitlename 0.5s linear;
+          animation: subtitlename 0.5s linear;
   -webkit-animation-delay: 1.5s;
           animation-delay: 1.5s;
 }
 
 .subtitle-reliability {
-  -webkit-animation: subtitlename 2s linear;
-          animation: subtitlename 2s linear;
+  -webkit-animation: subtitlename 0.5s linear;
+          animation: subtitlename 0.5s linear;
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
 }
 
 .subtitle-security {
-  -webkit-animation: subtitlename 2s linear;
-          animation: subtitlename 2s linear;
+  -webkit-animation: subtitlename 0.5s linear;
+          animation: subtitlename 0.5s linear;
   -webkit-animation-delay: 2.5s;
           animation-delay: 2.5s;
 }
 
 .logo {
-  -webkit-animation: logoname 1s linear;
-          animation: logoname 1s linear;
+  -webkit-animation: logoname 1.2s linear;
+          animation: logoname 1.2s linear;
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
   visibility: hidden;
@@ -595,11 +595,11 @@ p {
     opacity: 1;
   }
 
-  30% {
+  100% {
     -webkit-transform: scale(1);
             transform: scale(1);
-    visibility: hidden;
-    opacity: 0;
+    visibility: visible;
+    opacity: 1;
   }
 }
 
@@ -611,11 +611,11 @@ p {
     opacity: 1;
   }
 
-  30% {
+  100% {
     -webkit-transform: scale(1);
             transform: scale(1);
-    visibility: hidden;
-    opacity: 0;
+    visibility: visible;
+    opacity: 1;
   }
 }
 
